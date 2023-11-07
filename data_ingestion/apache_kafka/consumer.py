@@ -1,6 +1,6 @@
 from confluent_kafka import Consumer, KafkaError
 import pandas as pd
-import mt5_data
+import MetaTrader5 as mt5
 
 def fetch_data():
     # Your code here, returning a DataFrame

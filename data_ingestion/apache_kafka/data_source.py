@@ -4,7 +4,7 @@ import pandas as pd
 import pytz
 
 class MarketPriceData:
-    def __init__(self, login, server, password):
+    def __init__(self, login = 51439076, server = "ICMarketsSC-Demo", password = "vwYYuaZt"):
         self.login = login
         self.server = server
         self.password = password
